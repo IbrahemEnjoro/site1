@@ -1,0 +1,168 @@
+/*core styly*/
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 1em 0;
+
+}
+
+p {
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    margin: 1em 0;
+    transition: all 1s ease
+}
+
+.btn:hover {
+    background: #eaeaea;
+    color: #333
+}
+
+/*header showcase*/
+#showcase .bg-image {
+    position: absolute;
+    background: #333 url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?cs=srgb&dl=ai-blur-codes-577585.jpg&fm=jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#showcase h1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+#showcase {
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+    padding: 0 1.5em;
+
+}
+
+#section-a {
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+}
+
+#section-b {
+    padding: 2em 1em 1em;
+}
+
+#section-b ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background: #fff;
+    color: #333
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+#section-c {
+    background: #fff;
+    color: #333;
+    padding: 2em
+}
+
+#section-d .box {
+    padding: 2em;
+    color: #fff;
+    float: left;
+
+}
+
+.clearfex {
+    clear: both
+}
+
+#section-d .box:first-child {
+    background-color: #2690d9;
+
+}
+
+footer{
+    padding: 2em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    animation-name: coloring;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite
+}
+
+footer a {
+    color: #2690da;
+    text-decoration: none;
+}
+
+@keyframes coloring {
+    0% {
+        background-color: #000
+    }
+
+    60% {
+        background-color: #333;
+        color: #2690d9
+    }
+
+    100% {
+        background-color: #2690d9;
+        color: #333
+    }
+
+}
+
+/* media query*/
+.card {
+    transition: all 1s ease-in-out
+}
+
+.card:hover {
+    background: #2690d9;
+    color: #fff;
+
+}
